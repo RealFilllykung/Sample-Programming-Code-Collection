@@ -1,4 +1,4 @@
-myFile = open("e:/Programming Code Practice/Python/ReadMe.txt","r") #อ่านไฟล์จาก directory
+myFile = open("ReadMe.txt","r") #อ่านไฟล์จาก directory
 
 
 #print(myFile.readable) #มันจะบอกว่าไฟล์นี้อ่านได้มั้ย
@@ -10,7 +10,7 @@ print(myFile.readline())
 
 myFile.close()
 
-myFile = open("e:/Programming Code Practice/Python/ReadMe.txt","a")
+myFile = open("ReadMe.txt","a")
 myFile.write("\nFanta, 15THB")
 
 myFile.close()
